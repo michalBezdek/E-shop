@@ -1,0 +1,63 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(135deg, #ff5722, #ff7043);
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.navigation {
+    margin-top: 10px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    margin: 0 10px;
+    padding: 8px 16px;
+    border-radius: 20px;
+    transition: background 0.3s;
+}
+
+.navigation a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.about-us {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.about-us h2 {
+    font-size: 2.5rem;
+    color: #ff5722;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-us p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #555;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moderní Šachové Produkty</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Šachové Produkty</h1>
+        <nav class="navigation">
+            <a href="index.html">Produkty</a>
+            <a href="kontakt.html">Kontakt</a>
+            <a href="onas.html">O nás</a>
+        </nav>
+    </header>
+
+    <div id="layoutToggle" class="layout-toggle">
+        <label>
+            <input type="radio" id="gridLayout" name="layout" checked>
+            Mřížka
+        </label>
+        <label>
+            <input type="radio" id="lineLayout" name="layout">
+            Řádek
+        </label>
+    </div>
+
+    <div id="products" class="product-container grid-layout">
+        <div class="product">
+            <img src="./obrazky/luxusni.jpg" alt="Luxusní Šachovnice">
+            <h3>Luxusní Šachovnice</h3>
+            <p>Cena: 2500 Kč</p>
+        </div>
+        <div class="product">
+            <img src="./obrazky/elektronicka.jpg" alt="Elektronická Šachovnice">
+            <h3>Elektronická Šachovnice</h3>
+            <p>Cena: 8000 Kč</p>
+        </div>
+        <div class="product">
+            <img src="./obrazky/turnajova.jpg" alt="Turnajová Šachovnice">
+            <h3>Turnajová Šachovnice</h3>
+            <p>Cena: 1500 Kč</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
